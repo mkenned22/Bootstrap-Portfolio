@@ -56,18 +56,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
-    height: calc(100vh - 75px -90px);
-}
-
 section{
-    min-height: calc(100vh - 165px);
-}
-
-.indexcontainer{
     display: flex;
-    height: calc(100vh - 165px);
-    
+    min-height: calc(100vh - 165px);
+    margin-bottom: 15px;
 }
 
 .jumbotron{
@@ -77,6 +69,7 @@ section{
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     border-radius: 50px;
+    
 
 }
 .aboutme{
@@ -110,10 +103,6 @@ footer {
     height: 55px;
     margin-right: 25px;
     margin-left: 25px;
-}
-
-#whoami{
-    color: white;
 }
 
 .bio{

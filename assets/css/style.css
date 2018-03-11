@@ -3,7 +3,6 @@ body{
 }
 
 #index {
-    /* The background pattern used was found on Subtle Patterns. */
     background: url(../imgs/wide_profile_picture2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,7 +12,6 @@ body{
 }
 
 #about{
-      /* The background pattern used was found on Subtle Patterns. */
       background: url(../imgs/aboutme.jpeg) no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -23,7 +21,6 @@ body{
 }
 
 #portfolio{
-    /* The background pattern used was found on Subtle Patterns. */
     background: url(../imgs/portfolio2.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -33,7 +30,6 @@ body{
 }
 
 #contact{
-    /* The background pattern used was found on Subtle Patterns. */
     background: url(../imgs/contact2.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,7 +37,6 @@ body{
     background-size: cover;
       color: white;
 }
-
 
 .navbar-brand{
     margin-top: -12px;
@@ -147,3 +142,31 @@ input[type=checkbox]{
 	width: 0;
 	visibility: hidden;
 }
+
+.mikehomebutton{  
+    float: right;
+    margin-top: 1px;
+}
+
+.dropdown-container {
+    margin-top: 1px;
+    position: relative;
+    float:right;
+
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Bottom of button */
+    right: 0;
+    margin-left: -100px; /* More to the left */
+  }
+
+.mikehomebutton {
+    margin-right: 15px; 
+}
+
+.glyphicon-home{
+    color: black;
+}
+
+    

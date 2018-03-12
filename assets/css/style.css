@@ -185,18 +185,15 @@ and (orientation : portrait) {
     }
 
     #about{
-        background-image: none;
-        background-color: gray;
+        background: url(../dust_scratches.jpg);
   }
 
   #portfolio{
-    background-image: none;
-    background-color: gray;
-}
+    background: url(../dust_scratches.jpg);
+  }
 
 #contact{
-    background-image: none;
-    background-color: gray;
+    background: url(../dust_scratches.jpg);
 }
 
 }

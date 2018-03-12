@@ -185,15 +185,15 @@ and (orientation : portrait) {
     }
 
     #about{
-        background: url(../imgs/dust_scratches.png);
+        background: url(../imgs/wild_oliva.png);
   }
 
   #portfolio{
-    background: url(../imgs/dust_scratches.png);
+        background: url(../imgs/wild_oliva.png);
   }
 
 #contact{
-    background: url(../imgs/dust_scratches.png);
+        background: url(../imgs/wild_oliva.png);
 }
 
 }

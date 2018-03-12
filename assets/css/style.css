@@ -185,30 +185,14 @@ and (orientation : portrait) {
     }
 
     #about{
-        background: url(../imgs/aboutme-mobile.jpeg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-          color: white;
+        background-color: gray;
   }
 
   #portfolio{
-    background: url(../imgs/portfolio2-mobile.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-      color: white;
+    background-color: gray;
 }
 
 #contact{
-    background: url(../imgs/contact2-mobile.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-      color: white;
-}
+    background-color: gray;
 
 }

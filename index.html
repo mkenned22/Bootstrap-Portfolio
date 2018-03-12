@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap Requirements -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <!-- My CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- Tab Icon -->
     <link rel="icon" href="assets/imgs/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Roboto:500" rel="stylesheet">
-    <title>Mike Mike Mike</title>
+    <!-- Page Title -->
+    <title>Home</title>
 </head>
-
+<!-- body id defined for background image -->
 <body id="index">
+    <!-- The header is consistent across all pages -->
     <header>
         <nav class="navbar navbar-default">
             <a class="navbar-brand" href="index.html">
@@ -24,37 +27,40 @@
                     <img class="mcpklogo" src="assets/imgs/mcpklogo.png" width="45" height="45" alt="">
                 </span>
             </a>
-            <a href="index.html"><button class="btn btn-default btn-lg dropdown-toggle mikehomebutton" type="button">
-                        
-                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span></button>
-                </a>
+            <a href="index.html">
+                <button class="btn btn-default btn-lg dropdown-toggle mikehomebutton" type="button">
+
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                </button>
+            </a>
             <div class="dropdown-container">
-            <button class="btn btn-default btn-lg dropdown-toggle mikemenubutton" type="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="about.html">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;About Me</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">
-                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp;&nbsp;Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;Contact</a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li>
-                    <a href="index.html">
-                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;Home</a>
-                </li>
-            </ul>
-        </div>
+                <button class="btn btn-default btn-lg dropdown-toggle mikemenubutton" type="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="about.html">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;About Me</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp;&nbsp;Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;Contact</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                        <a href="index.html">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;Home</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <!-- Container to help page adjust automatically to the viewport -->
     <div class="container">
         <section class="row main">
             <div class="jumbotron">
@@ -67,6 +73,7 @@
                 </p>
             </div>
         </section>
+        <!-- The footer is consistent across all pages -->
         <footer class="row">
             <a href="https://www.linkedin.com/in/mkenned22/">
                 <img class="logos" src="assets/imgs/linkedin.png" alt="linkedin">
@@ -81,10 +88,7 @@
             <a href="mailto:mkenned22@gmail.com?subject=ThisIsAwesome!">
                 <img class="logos" src="assets/imgs/gmail.png" alt="gmail">
             </a>
-
         </footer>
     </div>
-
 </body>
-
 </html>

@@ -185,14 +185,18 @@ and (orientation : portrait) {
     }
 
     #about{
+        background-image: none;
         background-color: gray;
   }
 
   #portfolio{
+    background-image: none;
     background-color: gray;
 }
 
 #contact{
+    background-image: none;
     background-color: gray;
+}
 
 }

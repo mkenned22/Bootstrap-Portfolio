@@ -186,6 +186,7 @@ and (orientation : portrait) {
 
     #about{
         background: url(../imgs/wild_oliva.png);
+
   }
 
   #portfolio{
@@ -194,6 +195,10 @@ and (orientation : portrait) {
 
 #contact{
         background: url(../imgs/wild_oliva.png);
+}
+
+.bio{
+    font-size: 16px;
 }
 
 }
